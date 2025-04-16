@@ -8,6 +8,28 @@ This project is an application that utilizes AI to extract date, usage, and cost
 - Image preprocessing to enhance the quality of the input images for better OCR results.
 - Integration with spreadsheet software to store the extracted data.
 
+## Requirements
+
+### Python Dependencies
+- Python 3.7+
+- Required packages (listed in `requirements.txt`)
+
+### External Dependencies
+
+#### Tesseract OCR
+This application requires Tesseract OCR to be installed on your system:
+
+**Windows:**
+1. Download the Tesseract installer from [UB Mannheim's GitHub page](https://github.com/UB-Mannheim/tesseract/wiki)
+2. Run the installer
+3. During installation, select "Add to PATH" to make Tesseract available system-wide
+4. Note the installation directory (default is usually `C:\Program Files\Tesseract-OCR`)
+
+**macOS:**
+```bash
+brew install tesseract
+```
+
 ## Project Structure
 
 ```
